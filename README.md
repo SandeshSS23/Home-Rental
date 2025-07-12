@@ -41,42 +41,55 @@ In the root `package.json`:
 
 ---
 
+```json
 "scripts": {
   "dev": "nodemon api/index.js",
   "start": "node api/index.js",
   "build": "npm install && npm install --prefix client && npm run build --prefix client"
 }
+```
 
 ---
 
 🛠️ Installation & Setup
 1. Clone the repo
 
+```
 git clone https://github.com/your-username/home-rental.git
 cd home-rental
+```
 
 2. Setup environment variables
 
 Create a .env file in the root directory and add:
 
+```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 FIREBASE_API_KEY=your_firebase_api_key
-...
+```
+
 3. Install backend dependencies
 
+```
 npm install
+```
 
 4. Install frontend dependencies
 
+```
 cd client
 npm install
-
+```
 
 5. Run both frontend and backend
 
 # In /client
+```
 npm start
+```
 
 # In root or /api
+```
 npm run dev
+```
