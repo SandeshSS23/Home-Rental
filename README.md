@@ -48,6 +48,7 @@ In the root `package.json`:
   "build": "npm install && npm install --prefix client && npm run build --prefix client"
 }
 
+---
 
 🛠️ Installation & Setup
 1. Clone the repo
