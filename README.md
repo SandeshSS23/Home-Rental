@@ -41,7 +41,6 @@ In the root `package.json`:
 
 ---
 
-```json
 "scripts": {
   "dev": "nodemon api/index.js",
   "start": "node api/index.js",
